@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <title>Hacked By Sabbir</title>
 
     <meta name="title" content="You System Have Been Down!" />
@@ -170,7 +169,17 @@
       }
     </style>
   </head>
-  <body>
+  <body onclick="playAudio()">
+    <audio id="myAudio" loop autoplay>
+        <source src="def.mp3" type="audio/ogg" />
+      </audio>
+      <script>
+        var x = document.getElementById("myAudio");
+  
+        function playAudio() {
+          x.play();
+        }
+      </script>
     <div class="stars"> 
       <center> 
        <h1>CYBERSQUAD</h1> 
@@ -194,7 +203,7 @@
            <br>     <br> 
        <font face="Sarpanch" class="this" color="white" class="message"> THIS SITE </font>
        <center> 
-        <h1 class="t3x"> <font color="lime" style="text-shadow: 0 0 20px blue, 0 0 5px red, 0 0 7px red, 0 0 45px red; font-weight:bold: red; font-size:50px"> HACKED BY SABBIR </font> </h1> 
+        <h1 class="t3x"> <font color="lime" style="text-shadow: 0 0 20px blue, 0 0 5px red, 0 0 7px red, 0 0 45px red; font-weight:bold; red; font-size:50px"> HACKED BY SABBIR </font> </h1> 
         <br> 
         <br>
        </center> 
